@@ -1,4 +1,4 @@
-package br.aluraservlet1;
+package br.aluraservlet1.servlets;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -11,6 +11,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.sun.org.apache.xerces.internal.impl.xpath.regex.ParseException;
+
+import br.aluraservlet1.modelo.Banco;
+import br.aluraservlet1.modelo.Empresa;
 
 @WebServlet("/alteraEmpresa")
 public class AlteraEmpresaServlet extends HttpServlet {

@@ -1,4 +1,4 @@
-package br.aluraservlet1;
+package br.aluraservlet1.modelo;
 
 import java.util.Date;
 

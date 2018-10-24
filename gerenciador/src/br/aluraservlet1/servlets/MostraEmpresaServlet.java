@@ -1,4 +1,4 @@
-package br.aluraservlet1;
+package br.aluraservlet1.servlets;
 
 import java.io.IOException;
 
@@ -8,6 +8,9 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import br.aluraservlet1.modelo.Banco;
+import br.aluraservlet1.modelo.Empresa;
 
 @WebServlet("/mostraEmpresa")
 public class MostraEmpresaServlet extends HttpServlet {
